@@ -1,0 +1,111 @@
+:root {
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background: var(--preto);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+header .logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 40px;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header nav a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #aaaa;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+
+/* Filme principal recomendação */
+
+.filme-principal {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background: linear-gradient(rgba(0, 0, 0.50), rgba(0, 0, 0, .50)100%), url(/imgs/dark-cover.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo {
+    font-size: 60px;
+}
+
+.sinopse {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.botao {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    margin-top: 70px;
+    padding: 13px;
+    transition: .5s ease all;
+}
+
+.botao:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 20px;
+    padding: 3px;
+}
+
+.container {
+    margin-left: 30px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.carrosel-filmes{
+    padding: 15px;
+}
+
+.box-filme {
+    height: 100%;
+    widows: 100%;
+    display: block;
+}
+
+.recomendados {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
