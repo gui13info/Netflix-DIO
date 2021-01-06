@@ -46,7 +46,7 @@ header nav a:hover {
 .filme-principal {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
-    background: linear-gradient(rgba(0, 0, 0.50), rgba(0, 0, 0, .50)100%), url(/imgs/dark-cover.jpg);
+    background: linear-gradient(rgba(0, 0, 0.50), rgba(0, 0, 0, .50)100%), url(../img/dark-cover.jpg);
     height: 400px;
     background-size: cover;
     display: flex;
